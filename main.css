@@ -1,4 +1,6 @@
-nav {
+/*YALLASTYLING*/
+
+/* nav {
     float: right;
     display: block;
 }
@@ -15,6 +17,16 @@ nav {
   line-height: 40px;
   height: 40px;
   border-bottom: 1px solid #888;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
 }
  
 .nav a {
@@ -34,7 +46,7 @@ nav {
   cursor: default;
 }
  
-
+*/
 
 * {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
