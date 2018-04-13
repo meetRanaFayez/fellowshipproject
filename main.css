@@ -1,4 +1,7 @@
 /*YALLASTYLING*/
+/*=== ===*/
+/*=== ===*/
+/*=== ===*/
 
 /* nav {
     float: right;
@@ -54,18 +57,46 @@ li {
 
 ul {
     list-style-type: none;
+    background: #5557586b; 
     margin: 0;
     padding: 0;
+    padding: 20px;
 }
 
 main {
     overflow: auto;
-    margin-top: 60px;
+    margin-top: 0px;
+    /* The image used */
+    background-image: linear-gradient(#818182,rgba(0,123,255,.5)), url(bidet-bg.jpg);
+    background-color: #ffffff;
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
+body { 
+
+}
+
+imgtext {
+    /*text-shadow: 3px 2px #DAA520;*/
+}
+
+.bg {
+    opacity:0.5;
+
+}
+
 p {
     font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px* color: #919191;
+    z-index: 1;
 
 }
 
@@ -84,7 +115,7 @@ h1 {
 }
 
 h2 {
-
+    text-align: center;
 }
 
 .main-list li {
@@ -93,5 +124,17 @@ h2 {
 
 footer {
     text-align: center;
+    background-color: #60B0AF;
 }
 
+logo {
+    margin: auto;
+    padding-top: 30px; 
+    border-bottom:80px solid #f6379e;
+    border-width:0px 0px 30px 0px;
+    border-style:solid solid solid solid;
+    border-color:#000000 #000000 #f6379e #000000;
+    padding-bottom: 35px;
+    box-shadow: 10px 10px #60B0AF;
+
+}
