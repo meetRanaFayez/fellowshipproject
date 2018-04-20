@@ -64,18 +64,13 @@ ul {
 }
 
 main {
-    overflow: auto;
-    margin-top: 0px;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* The image used */
-    background-image: linear-gradient(#818182,rgba(0,123,255,.5)), url(bidet-bg.jpg);
-    background-color: #ffffff;
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(#818182,rgba(0,123,255,.5)), url(bidet-bg.jpg) center / cover no-repeat;
+    height: calc(100vh - 100px);
 }
 
 
@@ -83,8 +78,7 @@ body {
 
 }
 
-imgtext {
-    /*text-shadow: 3px 2px #DAA520;*/
+
 }
 
 .bg {
@@ -96,12 +90,7 @@ p {
     font-weight: 400;
     color: white;
     text-shadow: 2px 2px* color: #919191;
-    z-index: 1;
-
-}
-
-h1 {
-    font-weight: 1000;
+    text-align: middle;
 
 }
 
@@ -114,17 +103,46 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
-    text-align: center;
-}
-
 .main-list li {
 
 }
 
+.container {
+  width: 85%;
+  display: flex;
+  color: white;
+}
+
+.wrapper {
+  margin-right: 50px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 1000;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 10px;
+  flex: 1;
+}
+
+h6 {
+  margin: 0;
+  padding: 5px;
+}
+
+
 footer {
-    text-align: center;
-    background-color: #60B0AF;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background: #60B0AF;
+  height: 100px;
 }
 
 logo {
@@ -137,4 +155,23 @@ logo {
     padding-bottom: 35px;
     box-shadow: 10px 10px #60B0AF;
 
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    display: initial;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  main {
+    height: auto;
+    padding: 60px 10px;
+  }
 }
