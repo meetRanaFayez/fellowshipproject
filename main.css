@@ -149,7 +149,7 @@ h1 {
 
 h1, h2, p {
   margin: 0;
-  padding: 10px;
+  /*padding: 10px;*/
   flex: 1;
 }
 
@@ -199,9 +199,11 @@ footer {
     height: auto;
     padding: 60px 10px;
   }
+
   .hero {
     height: auto;
   }
+
   footer {
    width: 100%;
    height: auto; 
