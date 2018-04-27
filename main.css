@@ -156,7 +156,7 @@ h1, h2, p {
 h6 {
   display: inline-block;
   margin: 0;
-  padding: 5px;
+  padding: 3px;
 }
 
 
@@ -203,16 +203,17 @@ footer {
     height: auto;
   }
   footer {
+   width: 100%;
    height: auto; 
   }
+
  #logo > img {
     width: 100%;
     height: auto;
     margin-bottom: 39px;
-}
   }
-
-}
+  }
+  }
 
 header .pull-right {
     position: absolute;
