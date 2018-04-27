@@ -39,7 +39,7 @@ li {
   transition: .3s background-color;
 }
  
-.nav a:hover {
+. a:hover {
   background-color: #005f5f;
 }
  
@@ -154,6 +154,7 @@ h1, h2, p {
 }
 
 h6 {
+  display: inline-block;
   margin: 0;
   padding: 5px;
 }
@@ -198,4 +199,25 @@ footer {
     height: auto;
     padding: 60px 10px;
   }
+  .hero {
+    height: auto;
+  }
+  footer {
+   height: auto; 
+  }
+ #logo > img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 39px;
 }
+  }
+
+}
+
+header .pull-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+}
+
