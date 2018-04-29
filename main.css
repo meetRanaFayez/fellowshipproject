@@ -192,30 +192,52 @@ footer {
   .container {
     display: initial;
   }
+
+
+  #logo > img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 39px;
+  }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 351px) {
   main {
     height: auto;
     padding: 60px 10px;
   }
 
+
+@media screen and (max-width: 351px) and (min-height: 646px) {
+
   .hero {
     height: auto;
   }
+}
+
 
   footer {
    width: 100%;
    height: auto; 
   }
 
- #logo > img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 39px;
+
+  /*To fix overlap bug on screens that are between 351px and 494px*/
+
+/*@media only screen and (min-device-width: 351px) and (max-device-width: 494px) {
+  footer {
+    padding: 60px 10px;
   }
+
+  body {
+    background-color: blue;
   }
-  }
+} */
+
+
+
+
+
 
 header .pull-right {
     position: absolute;
