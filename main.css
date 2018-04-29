@@ -182,7 +182,7 @@ footer {
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) and (min-height: 673px) {
   .container {
     width: 65%;
   }
@@ -201,48 +201,100 @@ footer {
   }
 }
 
-@media screen and (max-width: 351px) {
+@media screen and (max-width: 360px) {
   main {
     height: auto;
     padding: 60px 10px;
   }
 
-
-@media screen and (max-width: 351px) and (min-height: 646px) {
+@media screen and (max-width: 360px) and (max-height: 646px) {
 
   .hero {
     height: auto;
   }
 }
 
+  main {
+    height: auto;
+    padding: 60px 10px;
+  }
 
   footer {
    width: 100%;
    height: auto; 
   }
+}
 
+/*iPhone 6/7/8 fix width 667px height 375px  */
 
-  /*To fix overlap bug on screens that are between 351px and 494px*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
 
-/*@media only screen and (min-device-width: 351px) and (max-device-width: 494px) {
+  .hero {
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
   footer {
-    padding: 60px 10px;
+   width: 100%;
+   height: auto;
+  }
+} 
+
+/*@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+
+
+  .hero {
+    display: flex;
+    align-items: center;
+    height: calc (100vh - 100px);
+}
+
+  main {
+    padding: 10px 60px;
+    width: auto;
+    height: calc(100vh - 100px);
   }
 
-  body {
-    background-color: blue;
+  footer {
+   width: 100%;
+   height: auto; 
   }
-} */
+  }
+  }*/
+
+    }
 
 
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+
+  .hero {
+    display: flex;
+    align-items: center;
+    height: calc (100vh - 100px);
+}
+
+  main {
+    padding: 10px 60px;
+    width: auto;
+    height: calc(100vh - 100px);
+  }
+
+  footer {
+   width: 100%;
+   height: auto; 
+  }
+  }
+}
 
 
-
-
-header .pull-right {
+/*header .pull-right {
     position: absolute;
     top: 0;
     right: 0;
     padding-right: 10px;
-}
+}*/
 
