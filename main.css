@@ -295,6 +295,12 @@ footer {
   }
 }
 
+#map {
+  height: 400px;
+  width: 400px;
+  background-color: orange;
+
+}
 
 /*header .pull-right {
     position: absolute;

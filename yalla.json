@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Johnny Brendas",
+        "marker-color": "#0000ff",
+        "marker-symbol": "music",
+        "line": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.134266,
+          39.969092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crane Arts",
+        "marker-color": "#0000ff",
+        "marker-symbol": "school",
+        "line": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1404,
+          39.973249
+        ]
+      }
+    }
+  ]
+}

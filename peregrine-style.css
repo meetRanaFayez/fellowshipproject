@@ -1,0 +1,76 @@
+/*=== PEREGRINE STYLE ===*/
+/*=== ===*/
+/*=== ===*/
+/*=== ===*/
+
+* {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.fixed-nav {
+    float: left;
+    padding-top: 60px;
+    color: #DAA520;
+}
+
+/*=== Change the color on hover ===*/
+
+.fixed-nav a:hover {
+    color: #FFFF00;
+    text-decoration: underline;
+}
+
+/*=== Hide the link that should open and close the topnav on small screens ===*/
+@media only screen and (max-width: 650px) {
+    .fixed-nav {
+        display: none;
+    }       
+}
+
+
+.heading {
+    border-bottom: 1px dotted;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+}
+
+.figure {
+    z-index: 9999;
+}
+
+header {
+    text-align: center;
+    padding: 100px 0 100px 0;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+header .intro-text {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    text-shadow: -1px 0 #777, 0 1px #777, 1px 0 #777, 0 -1px #777;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+header .intro-text .intro-heading {
+    font-size: 30px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+header .intro-text .intro-lead-in {
+    font-size: 18px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+/*=== 
+body {
+   background-image: url("bidet-bg.jpg");
+   background-color: #cccccc;
+}
+===*/
